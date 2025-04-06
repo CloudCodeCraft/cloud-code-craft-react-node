@@ -13,6 +13,8 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
+import { ThemeProvider, createTheme } from "@mui/material";
+import Box from "@mui/material/Box";
 
 export const links: Route.LinksFunction = () => [];
 
@@ -35,7 +37,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  const theme = createTheme({
+    palette: {
+      mode: "dark",
+    },
+  });
+
+  return (
+    <ThemeProvider theme={theme}>
+      <Box
+        sx={{
+          minHeight: "100vh",
+          bgcolor: "background.default",
+          color: "text.primary",
+        }}
+      >
+        <Outlet />
+      </Box>
+    </ThemeProvider>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
