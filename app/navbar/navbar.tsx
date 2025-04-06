@@ -1,4 +1,6 @@
-import { AppBar, IconButton, Toolbar } from "@mui/material";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import AppBar from "@mui/material/AppBar";
 import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Navbar() {
