@@ -1,11 +1,14 @@
 /* Remove default margin and padding */
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 /* Optional: apply box-sizing inheritance throughout */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }

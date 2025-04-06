@@ -1,6 +1,6 @@
 import type { Route } from "./+types/home";
 import { Button, Typography } from "@mui/material";
-import AcUnitIcon from '@mui/icons-material/AcUnit';
+import AcUnitIcon from "@mui/icons-material/AcUnit";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -14,7 +14,12 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 
 export default function Home({ loaderData }: Route.ComponentProps) {
-  return <><Typography variant="h1" component="h2">
-  h1. Heading <AcUnitIcon />
-</Typography><Button variant="contained">Button</Button></>
+  return (
+    <>
+      <Typography variant="h1" component="h2">
+        h1. Heading <AcUnitIcon />
+      </Typography>
+      <Button variant="contained">Button</Button>
+    </>
+  );
 }
