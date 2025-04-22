@@ -4,8 +4,8 @@ import AcUnitIcon from "@mui/icons-material/AcUnit";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Daniel Lee Tech" },
-    { name: "description", content: "Personal Website for Daniel Lee Tech" },
+    { title: "Cloud Code Craft" },
+    { name: "description", content: "Website for all things coding in the cloud by Daniel Lee" },
   ];
 }
 
