@@ -6,15 +6,6 @@ import ListItem from "@mui/material/ListItem";
 export default function DishNetwork() {
   return (
     <>
-      <Typography
-        variant="h3"
-        noWrap
-        component={"h3"}
-        sx={{ textAlign: "center", marginBottom: 2 }}
-      >
-        Work History
-      </Typography>
-
       <Typography variant="h4" noWrap component={"h4"}>
         Staff Software Engineer
       </Typography>
