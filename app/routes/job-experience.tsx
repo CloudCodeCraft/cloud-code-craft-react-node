@@ -1,6 +1,11 @@
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import ProfileSummary from "~/profile-summary/profile-summary";
+import Jobs from "~/work-history/work-history";
+
+function SectionDivider() {
+  return <Divider sx={{ width: "80rem", marginX: "auto", marginY: 4 }} />;
+}
 
 export default function JobExperience() {
   return (
@@ -21,9 +26,10 @@ export default function JobExperience() {
         >
           Software Engineer
         </Typography>
-        <Divider sx={{ width: "80rem", marginX: "auto", marginY: 2 }} />
-
+        <SectionDivider />
         <ProfileSummary />
+        <SectionDivider />
+        <Jobs />
       </div>
     </>
   );

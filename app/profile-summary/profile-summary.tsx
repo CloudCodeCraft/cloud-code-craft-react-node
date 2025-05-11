@@ -35,7 +35,7 @@ export default function ProfileSummary() {
         variant="h3"
         noWrap
         component={"h3"}
-        sx={{ textAlign: "center" }}
+        sx={{ textAlign: "center", marginBottom: 2 }}
       >
         Profile
       </Typography>
