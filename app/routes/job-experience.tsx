@@ -1,7 +1,7 @@
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
-import ProfileSummary from "~/profile-summary/profile-summary";
-import Jobs from "~/work-history/work-history";
+import ProfileSummary from "~/components/job-experience/profile-summary/profile-summary";
+import Jobs from "~/components/job-experience/work-history/work-history";
 
 function SectionDivider() {
   return <Divider sx={{ width: "80rem", marginX: "auto", marginY: 4 }} />;

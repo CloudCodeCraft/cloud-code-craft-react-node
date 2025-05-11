@@ -1,5 +1,5 @@
 import { Outlet } from "react-router";
-import Navbar from "~/navbar/navbar";
+import Navbar from "~/components/shared/navbar/navbar";
 import { Box } from "@mui/material";
 
 export default function DefaultLayout() {
