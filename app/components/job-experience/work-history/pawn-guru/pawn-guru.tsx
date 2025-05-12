@@ -31,36 +31,36 @@ export default function PawnGuru() {
           <ListItem>
             <Typography>
               Implemented Google Sign-In to streamline user onboarding and
-              improve lead conversion rates. The project involved integrating
-              OAuth on the React front end, verifying tokens securely in the
-              Django backend, and linking existing Gmail-based accounts to the
-              new auth system. This reduced friction in the signup process and
-              increased first-time user engagement.
+              reduce friction in the signup flow. Integrated OAuth
+              authentication into the React frontend and Django backend, and
+              securely mapped existing Gmail-based accounts to enable seamless
+              login and account creation.
             </Typography>
           </ListItem>{" "}
           <ListItem>
             <Typography>
-              Modernized a legacy in-house React component library that was
-              built with outdated wrapper patterns on top of Material UI and
-              Formik. Removed unnecessary abstractions, improving
-              maintainability, readability, and modularity across the codebase.
+              Refactored a legacy React component library originally built with
+              outdated wrapper patterns over Material UI and Formik. Removed
+              unnecessary abstractions, improving maintainability, readability,
+              and modular structure of the codebase.
             </Typography>
           </ListItem>{" "}
           <ListItem>
             <Typography>
-              Leveraged React hooks and direct usage of Material UI components
-              to reduce unnecessary re-renders, improve first-paint performance,
-              and eliminate flaky behaviors in headless testing environments.
-              The refactor also sped up development cycles and reduced bundle
-              size.
+              Rebuilt core UI components using native Material UI elements and
+              React hooks to improve first-paint performance, reduce unnecessary
+              re-renders, and eliminate flaky behavior in headless test
+              environments. The refactor also reduced bundle size and
+              accelerated development cycles.
             </Typography>
           </ListItem>{" "}
           <ListItem>
             <Typography>
-              Led a redesign and A/B testing initiative for the platform’s lead
-              generation form. Collaborated with product and UX teams to test
-              multiple variations, resulting in a 30% increase in user
-              conversions.
+              Led a redesign and A/B testing initiative for the company’s lead
+              generation forms. Collaborated with product and UX teams to launch
+              multiple variants and analyze performance, resulting in a 30%
+              increase in lead conversions driven by data-informed UI
+              improvements.
             </Typography>
           </ListItem>{" "}
         </List>

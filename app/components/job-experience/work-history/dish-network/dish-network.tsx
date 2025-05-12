@@ -17,12 +17,12 @@ export default function DishNetwork() {
           ml: 10,
           textDecoration: "underline",
           color: "rgb(13, 202, 240)",
-          display: 'inline'
+          display: "inline",
         }}
       >
         At DISH Network
       </Typography>
-      <Typography sx={{display: 'inline', paddingLeft: 2, color: 'gray'}}>
+      <Typography sx={{ display: "inline", paddingLeft: 2, color: "gray" }}>
         April 2022 to Current
       </Typography>
 
@@ -31,69 +31,69 @@ export default function DishNetwork() {
           <ListItem>
             <Typography>
               Conceived, pitched, and implemented a real-time sports prediction
-              game for DISH Network subscribers. Built scalable Ruby on Rails
-              API endpoints with Sidekiq for background processing and
-              integrated the frontend with React and Redux. The feature allowed
-              users to engage interactively during live events, aligning with
-              DISH’s innovation-driven culture.
+              game for DISH subscribers, handling everything from backend API
+              development to frontend integration using React and Redux.
             </Typography>
           </ListItem>{" "}
           <ListItem>
             <Typography>
-              Led the migration of two core external dependencies within a
-              14-year-old Ruby on Rails monolith, enabling support for modern
-              video playback functionality and richer metadata. This initiative
-              ensured continued platform stability and compatibility in a
-              microservices architecture using the API Gateway pattern.
+              Built scalable Rails endpoints and background job processing with
+              Sidekiq to support live user interactions during events.
             </Typography>
           </ListItem>{" "}
           <ListItem>
             <Typography>
-              Improved ingestion workflows for live TV metadata by redesigning
-              job scheduling mechanisms to reduce data replication errors during
-              rapid scheduling changes. Enhanced data reliability and
-              performance across the platform’s content ingestion pipeline.
+              Migrated core external services in a 14-year-old monolith to
+              modern upstream dependencies, improving video playback and
+              metadata quality while preserving API stability.
             </Typography>
           </ListItem>{" "}
           <ListItem>
             <Typography>
-              Dockerized the legacy Ruby on Rails application to streamline
-              local development and deployment processes. Rewrote GitLab CI/CD
-              pipeline jobs using Docker-in-Docker, enabling stable, efficient
-              builds during a company-wide migration from Jenkins to GitLab.
+              Contributed to the architectural shift from a monolithic codebase
+              to a microservices structure by identifying service boundaries and
+              extracting independent components.
             </Typography>
           </ListItem>{" "}
           <ListItem>
             <Typography>
-              Led internal documentation efforts for a legacy Rails monolith
-              with limited existing knowledge. Organized and conducted
-              cross-team training sessions and pair programming seminars to
-              improve onboarding, collaboration, and long-term maintainability
-              across engineering and stakeholder teams.
+              Re-engineered ingestion workflows for live TV scheduling data to
+              reduce replication errors and improve consistency in high-change
+              environments.
             </Typography>
           </ListItem>
           <ListItem>
             <Typography>
-              Contributed to the architectural redesign of a legacy 14-year-old
-              Ruby on Rails monolith by identifying logical service boundaries
-              and extracting functionality into independently deployable
-              microservices.
+              Dockerized the legacy Rails application to streamline local
+              development and standardize deployment environments across teams.
             </Typography>
           </ListItem>
           <ListItem>
             <Typography>
-              Led internal documentation efforts for a legacy Rails monolith
-              with limited existing knowledge. Organized and conducted
-              cross-team training sessions and pair programming seminars to
-              improve onboarding, collaboration, and long-term maintainability
-              across engineering and stakeholder teams.
+              Led the migration from Jenkins to GitLab CI/CD by designing
+              Docker-in-Docker pipelines for stable, reliable builds and
+              automated deployments.
             </Typography>
           </ListItem>
           <ListItem>
             <Typography>
-              Collaborated closely with DevOps to containerize services and set
-              up service discovery, health checks, and automated deployments
-              using Docker and GitLab CI/CD.{" "}
+              Collaborated with DevOps to containerize services, implement
+              service discovery, and configure health checks and deployment
+              automation.
+            </Typography>
+          </ListItem>
+          <ListItem>
+            <Typography>
+              Led documentation efforts for a legacy Rails codebase with minimal
+              existing resources, reducing onboarding friction and increasing
+              maintainability.
+            </Typography>
+          </ListItem>
+          <ListItem>
+            <Typography>
+              Facilitated knowledge transfer through pair programming,
+              onboarding workshops, and technical walkthroughs for
+              cross-functional stakeholders.
             </Typography>
           </ListItem>
         </List>

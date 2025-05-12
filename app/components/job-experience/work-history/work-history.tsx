@@ -2,6 +2,8 @@ import DishNetwork from "./dish-network/dish-network";
 import PawnGuru from "./pawn-guru/pawn-guru";
 import Typography from "@mui/material/Typography";
 import SectionDivider from "../section-divider/section-divider";
+import EthicalIdentity from "./ethical-identity/ethical-identity";
+import TailoredIndustry from "./tailored-industry/tailored-industry";
 
 export default function WorkHistory() {
   return (
@@ -18,6 +20,10 @@ export default function WorkHistory() {
       <SectionDivider width="md" />
 
       <PawnGuru />
+      <SectionDivider width="md" />
+      <EthicalIdentity />
+      <SectionDivider width="md" />
+      <TailoredIndustry />
     </>
   );
 }
