@@ -17,9 +17,13 @@ export default function DishNetwork() {
           ml: 10,
           textDecoration: "underline",
           color: "rgb(13, 202, 240)",
+          display: 'inline'
         }}
       >
         At DISH Network
+      </Typography>
+      <Typography sx={{display: 'inline', paddingLeft: 2, color: 'gray'}}>
+        April 2022 to Current
       </Typography>
 
       <Box>
